@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geeoh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Image/Audio/Video</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <div class="file-input">
+                <label for="file">Choose a file,click here:</label>
+                <input type="file" id="file" name="file">
+            </div>
+            <div class="upload-button">
+                <button type="submit">Upload</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
